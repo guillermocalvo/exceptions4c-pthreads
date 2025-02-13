@@ -1,0 +1,15 @@
+{
+  "name": "exceptions4c-pthreads",
+  "version": "0.1.0",
+  "description": "Multithreading exception handling for C",
+  "repo": "guillermocalvo/exceptions4c-pthreads",
+  "license": "Apache-2.0",
+  "src": [
+    "src/exceptions4c-pthreads.h",
+    "src/exceptions4c-pthreads.c"
+  ],
+  "keywords": [
+    "exceptions",
+    "error-handling"
+  ]
+}
