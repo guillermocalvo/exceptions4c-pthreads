@@ -14,6 +14,19 @@
  * limitations under the License.
  */
 
+/**
+ * Implementation of the thread-safe extension for exceptions4c.
+ *
+ * <img src="exceptions4c-pthreads.svg">
+ *
+ * @file        exceptions4c-pthreads.c
+ * @version     0.1.0
+ * @author      [Guillermo Calvo](https://guillermo.dev)
+ * @copyright   Licensed under Apache 2.0
+ * @see         For more information, visit the
+ *              [project on GitHub](https://github.com/guillermocalvo/exceptions4c-pthreads)
+ */
+
 #include <stdio.h> /* fflush, fprintf, stderr */
 #include <errno.h> /* errno */
 #include <pthread.h>
